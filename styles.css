@@ -39,11 +39,12 @@ h1 {
 	padding: 0.75em 2em;
 	background-color: #38cfd9;
 	border-radius: 100px;
+	outline: 0;
 }
 .btn:hover,
 .btn:focus {
 	opacity: 0.75;
-	outline: 0;
+	
 }
 
 .container {
@@ -112,12 +113,13 @@ header {
 	color: #136c72;
 	padding: 0.5em 1em;
 	border-radius: 10em;
+	outline: 0
 }
 
 .nav__link:hover,
 .nav__link:focus {
 	opacity: 0.75;
-	outline: 0
+	
 }
 
 
