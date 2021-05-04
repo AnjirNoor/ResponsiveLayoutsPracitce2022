@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			http-equiv="X-UA-Compatible"
+			content="IE=edge"
+		/>
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<link
+			rel="stylesheet"
+			href="styles.css"
+		/>
+		<title>
+			Creating Responsive Layouts
+		</title>
+	</head>
+	<body>
+		<header>
+			<div
+				class="container row after-mq"
+			>
+				<a class="logo" href=""
+					><img src="logo.svg" alt=""
+				/></a>
+				<nav class="nav">
+					<!-- NAV COLUMN 01-->
+					<ul class="nav__list hac">
+						<li class="nav__item">
+							<a
+								href="#"
+								class="nav__link"
+								>Home</a
+							>
+						</li>
+						<li class="nav__item">
+							<a
+								href="#"
+								class="nav__link"
+								>About</a
+							>
+						</li>
+						<li class="nav__item">
+							<a
+								href="#"
+								class="nav__link"
+								>Contact</a
+							>
+						</li>
+					</ul>
+					<!-- NAV COLUMN 02-->
+					<ul
+						class="nav__list push-right"
+					>
+						<li class="nav__item">
+							<a
+								href="#"
+								class="nav__link"
+								>Sign In</a
+							>
+						</li>
+						<li class="nav__item">
+							<a
+								href="#"
+								class="nav__link nav__link--button"
+								>Sign up</a
+							>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<section class="hero">
+			<div class="container row">
+				<div class="hero__text">
+					<h1>
+						Responsive layouts don’t
+						have to be a struggle
+					</h1>
+					<p>
+						Lorem ipsum dolor sit amet,
+						consectetur adipiscing elit,
+						sed do eiusmod tempor
+						incididunt ut labore et
+						dolore magna aliqua. Ut enim
+						ad minim veniam.
+					</p>
+					<a href="#" class="btn"
+						>I want to learn</a
+					>
+				</div>
+				<img
+					src="https://unsplash.it/600/400"
+					alt="UX design sketches"
+					class="hero__img"
+				/>
+			</div>
+		</section>
+
+		<main class="main container row">
+			<section class="primary-content">
+				<h2 class="section-title">
+					Quality designs made custom,
+					on demand, just for you
+				</h2>
+				<p>
+					Lorem ipsum dolor sit amet,
+					consectetur adipiscing elit,
+					sed do eiusmod tempor
+					incididunt ut labore et dolore
+					magna aliqua. Ut enim ad minim
+					veniam. Lorem ipsum dolor sit
+					amet, consectetur adipiscing
+					elit, sed do eiusmod tempor
+					incididunt ut labore et dolore
+					magna aliqua. Ut enim ad minim
+					veniam.
+				</p>
+				<p class="para-for-hide">
+					Lorem ipsum dolor sit amet,
+					consectetur adipiscing elit,
+					sed do eiusmod tempor
+					incididunt ut labore et dolore
+					magna aliqua. Ut enim ad minim
+					veniam. Lorem ipsum dolor sit
+					amet, consectetur adipiscing
+					elit, sed do eiusmod tempor
+					incididunt ut labore et dolore
+					magna aliqua. Ut enim ad minim
+					veniam.
+				</p>
+			</section>
+			<aside class="sidebar">
+				<h2 class="sidebar-title">
+					Cheap
+				</h2>
+				<p>
+					Lorem ipsum dolor sit amet,
+					consectetur adipiscing elit,
+					sed do eiusmod tempor
+					incididunt ut labore et dolore
+					magna aliqua. Ut enim ad minim
+					veniam.
+				</p>
+
+				<h2 class="sidebar-title">
+					Quick
+				</h2>
+				<p>
+					Lorem ipsum dolor sit amet,
+					consectetur adipiscing elit,
+					sed do eiusmod tempor
+					incididunt ut labore et dolore
+					magna aliqua. Ut enim ad minim
+					veniam.
+				</p>
+
+				<h2 class="sidebar-title">
+					Quality
+				</h2>
+				<p>
+					Lorem ipsum dolor sit amet,
+					consectetur adipiscing elit,
+					sed do eiusmod tempor
+					incididunt ut labore et dolore
+					magna aliqua. Ut enim ad minim
+					veniam.
+				</p>
+			</aside>
+		</main>
+	</body>
+</html>
