@@ -40,10 +40,12 @@ h1 {
 	background-color: #38cfd9;
 	border-radius: 100px;
 }
-
+.btn,
 .btn:hover,
-.btn:focus {
+.btn:focus,
+.btn:active {
 	opacity: 0.75;
+	outline: 0;
 }
 
 .container {
@@ -113,11 +115,15 @@ header {
 	padding: 0.5em 1em;
 	border-radius: 10em;
 }
-
+.nav__link,
 .nav__link:hover,
-.nav__link:focus {
+.nav__link:focus,
+.nav__link:active {
 	opacity: 0.75;
+	outline: 0
 }
+
+
 
 .hero {
 	padding: 100px 0;
