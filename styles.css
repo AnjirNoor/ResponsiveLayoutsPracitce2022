@@ -114,7 +114,8 @@ header {
 	border-radius: 10em;
 }
 
-.nav__link:hover {
+.nav__link:hover,
+.nav__link:focus {
 	opacity: 0.75;
 }
 
